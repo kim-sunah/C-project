@@ -1,0 +1,25 @@
+pull : git repository에서 자료를 가져오는 행위
+
+git pull origin master
+
+->지정해놓은 repository에서 끌어옵니다.
+
+
+
+push : git repository로 자료를 올리는 행위
+
+git status
+
+-> 현재 나의 로컬 폴더와 Git과의 상태를 Check!
+
+git add . 
+
+-> 로컬 폴더와 git repository사이에 변경된 파일들이 있을 때 그 모든 파일들을 Tracking 해 달라는 명령어
+
+git comm﻿it -m "message"
+
+->인식할 수 있는 commit을 달아줍니다.
+
+git push origin+master
+
+->Git에 실제로 push할 때 사용
